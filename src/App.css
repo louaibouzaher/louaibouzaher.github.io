@@ -8,17 +8,13 @@
   -webkit-text-fill-color: transparent;
 }
 
-.gradientTextHover:hover {
-  background: -webkit-linear-gradient(217deg, #43e97b 0%, #38f9d7 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .gradientBorder{
   transition: all 1s;
+  color: rgba(107, 114, 128,1)
   
 }
 .gradientBorder:hover{
+  color:#38f9d7;
   border:#38f9d7 solid 1px;
 }
 .smi{
