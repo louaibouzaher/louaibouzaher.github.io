@@ -1,10 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
 import "./index.css";
+import Hero from "./Components/Hero";
+
+
 function App() {
   return (
-    <div className="App">
-      <button class="bg-red-500 hover:bg-red-700 ">Hover me</button>
+    <div className="App container">
+      <Hero />
     </div>
   );
 }
