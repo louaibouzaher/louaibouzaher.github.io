@@ -10,13 +10,17 @@
 
 .gradientBorder{
   transition: all 1s;
-  color: rgba(107, 114, 128,1)
-  
+  color: rgba(107, 114, 128,1);
+  border:rgba(0, 0, 0, .1)solid 1px;
 }
 .gradientBorder:hover{
   color:#38f9d7;
-  border:#38f9d7 solid 1px;
+  border:#38f9d7 solid 1px ;
 }
 .smi{
   color:#38f9d7
+}
+
+.image{
+  filter: saturate(20%);
 }
