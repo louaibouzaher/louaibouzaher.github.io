@@ -1,7 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import Contribution from "./Contribution";
+import { BsArrowRightShort } from "react-icons/bs";
+
 const Contributions = () => {
-  const [Contributions, setContributions] = useState([
+  const Contributions = [
     {
       title: "CSE-Inventory-API",
       description:
@@ -101,10 +103,13 @@ const Contributions = () => {
       linkXd:
         "https://xd.adobe.com/view/685be0d7-f89f-4b25-b55c-a4fb805edc14-3d08/",
     },
-  ]);
+  ];
 
   return (
-    <div id='projects' className="my-10 flex flex-col w-full h-screen gradientBackground">
+    <div
+      id="projects"
+      className="my-10 flex flex-col w-full h-screen gradientBackground"
+    >
       <div className="self-end m-6 ">
         <div className="font-sfb text-left sm:text-current text-4xl sm:text-6xl blueGradientText">
           {" "}
@@ -121,7 +126,7 @@ const Contributions = () => {
           <span> 🎨</span>
         </div>
       </div>
-      <div className="scroll my-10 px-30 w-4/5 sm:w-5/6 flex flex-row overflow-x-scroll self-center">
+      <div className="scroll my-2 sm:my-10 px-30 w-4/5 sm:w-5/6 flex flex-row overflow-x-scroll self-center">
         <Contribution c={Contributions[0]} />
         <Contribution c={Contributions[7]} />
         <Contribution c={Contributions[6]} />
@@ -134,6 +139,10 @@ const Contributions = () => {
           )
         })} */}
       </div>
+      <BsArrowRightShort
+        size={60}
+        className="self-end bottom-10 right-3 text-gray-900 relative sm:hidden"
+      />
     </div>
   );
 };
