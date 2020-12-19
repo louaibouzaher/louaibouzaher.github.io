@@ -37,7 +37,7 @@ const Education = () => {
                 The Higher National School of Computer Science
               </div>
               <div className="tracking-wide">2019 - 2020 </div>
-              <div className="tracking-wide">Computer Science Engineering</div>
+              <div className="tracking-wide text-left">Computer Science Engineering</div>
             </div>
           </div>
           <div className="my-2 sm:my-5 flex flex-row flex-wrap sm:flex-nowrap">
