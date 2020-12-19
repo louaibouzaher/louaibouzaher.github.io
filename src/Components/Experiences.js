@@ -46,7 +46,6 @@ const Experiences = () => {
         {Experiences.map((e) => (
           <Experience e={e} />
         ))}
-        ghfghfghfghfghfghfghfghfghfg
       </div>
       <br />
     </div>
