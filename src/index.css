@@ -1,21 +1,27 @@
 @tailwind base;
 @tailwind components;
 @font-face {
-  font-family: 'SFB';
-  src: local('SFB'), url(./Fonts/SF-UI-Display-Black.otf)
+  font-family: "SFB";
+  src: local("SFB"), url(./Fonts/SF-UI-Display-Black.otf);
 }
 @font-face {
-  font-family: 'SFL';
-  src: local('SFL'), url(./Fonts/SF-UI-Display-Ultralight.otf)
+  font-family: "SFL";
+  src: local("SFL"), url(./Fonts/SF-UI-Display-Ultralight.otf);
 }
 @tailwind utilities;
-#root, #root > div {
-  width:100%;
+#root,
+#root > div {
+  width: 100%;
   margin: 0;
   padding: 0;
-  background-image: -webkit-linear-gradient(120deg,rgba(17, 24, 39, 1),rgb(36, 58, 105));
+  background-image: -webkit-linear-gradient(
+    120deg,
+    rgba(17, 24, 39, 1),
+    rgb(36, 58, 105)
+  );
 }
 * {
   margin: 0;
   padding: 0;
+  border: 0;
 }

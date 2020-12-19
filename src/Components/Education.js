@@ -4,7 +4,7 @@ import Aub from "../Assets/aub.png";
 const Education = () => {
   return (
     <div className=" container w-full flex flex-col items-center">
-      <div className="mt-20 mb-10 p-10 container w-3/4 bg-white rounded-xl shadow-2xl">
+      <div className="mt-20 mb-10 p-10 container w-4/5 bg-white rounded-xl shadow-2xl">
         <div className="flex flex-row items-baseline">
           <span className="font-sfb text-6xl text-left blueGradientText m-1">
             {" "}

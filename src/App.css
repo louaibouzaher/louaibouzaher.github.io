@@ -3,7 +3,7 @@
 }
 .blueGradientText {
   background: -webkit-linear-gradient(
-    120deg,
+    240deg,
     rgba(17, 24, 39, 1),
     rgb(36, 58, 105)
   );
@@ -31,4 +31,12 @@
 
 .image {
   filter: saturate(20%);
+}
+.gradientBackground{
+background-image: linear-gradient(217deg, #43e97b 0%, #38f9d7 100%);
+}
+.grayGradientBackground{
+background-image: linear-gradient( 240deg,
+rgba(17, 24, 39, 1),
+rgb(36, 58, 105));
 }
