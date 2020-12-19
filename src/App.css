@@ -1,4 +1,4 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -31,10 +31,21 @@ html{
 
 .gradientBorder {
   transition: all 1s;
-  color: #ffffff;
+  color: rgba(255,255, 255, 0.3);
   border: rgba(255, 255, 255, 0.05) solid 1px;
 }
 .gradientBorder:hover {
+  color: #38f9d7;
+  border: #38f9d7 solid 1px;
+}
+.gradientBorderResume {
+  transition: all .6s;
+  color:rgba(0, 0, 0, 0.6) !important;
+  background-image: linear-gradient(217deg, #43e97b 0%, #38f9d7 100%);
+  border: rgba(255, 255, 255, 0.05) solid 1px;
+}
+.gradientBorderResume:hover {
+  background-image: -webkit-linear-gradient(rgb(36, 58, 105), rgb(36, 58, 105));
   color: #38f9d7;
   border: #38f9d7 solid 1px;
 }
@@ -97,7 +108,7 @@ html::-webkit-scrollbar {
 .downArrow {
   position: -webkit-sticky;
   position: sticky;
-  top:85vh;
-  left:190vh;
+  top: 85vh;
+  left: 190vh;
   z-index: 200;
 }
