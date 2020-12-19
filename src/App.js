@@ -1,4 +1,3 @@
-
 import "./App.css";
 import "./index.css";
 import Hero from "./Components/Hero";
@@ -6,7 +5,7 @@ import Resume from "./Components/Resume";
 import Education from "./Components/Education";
 import Conributions from "./Components/Conributions";
 import Awards from "./Components/Awards";
-
+import Experiences from "./Components/Experiences";
 
 function App() {
   return (
@@ -15,6 +14,7 @@ function App() {
       <Resume />
       <Education />
       <Conributions />
+      <Experiences />
       <Awards />
     </div>
   );

@@ -121,7 +121,7 @@ const Contributions = () => {
           <span> 🎨</span>
         </div>
       </div>
-      <div className="my-10 px-30 w-4/5 sm:w-5/6 flex flex-row overflow-x-scroll self-center">
+      <div className="scroll my-10 px-30 w-4/5 sm:w-5/6 flex flex-row overflow-x-scroll self-center">
         <Contribution c={Contributions[0]} />
         <Contribution c={Contributions[7]} />
         <Contribution c={Contributions[6]} />
