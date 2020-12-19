@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/louaibouzaherWebsite/static/css/main.d118f950.chunk.css",
-    "main.js": "/louaibouzaherWebsite/static/js/main.2952293b.chunk.js",
-    "main.js.map": "/louaibouzaherWebsite/static/js/main.2952293b.chunk.js.map",
+    "main.js": "/louaibouzaherWebsite/static/js/main.bd3b2db9.chunk.js",
+    "main.js.map": "/louaibouzaherWebsite/static/js/main.bd3b2db9.chunk.js.map",
     "runtime-main.js": "/louaibouzaherWebsite/static/js/runtime-main.1582a9d5.js",
     "runtime-main.js.map": "/louaibouzaherWebsite/static/js/runtime-main.1582a9d5.js.map",
     "static/js/2.94fc222e.chunk.js": "/louaibouzaherWebsite/static/js/2.94fc222e.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.1582a9d5.js",
     "static/js/2.94fc222e.chunk.js",
     "static/css/main.d118f950.chunk.css",
-    "static/js/main.2952293b.chunk.js"
+    "static/js/main.bd3b2db9.chunk.js"
   ]
 }
