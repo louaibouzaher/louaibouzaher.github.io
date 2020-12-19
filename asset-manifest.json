@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/louaibouzaherWebsite/static/css/main.7536fc3b.chunk.css",
-    "main.js": "/louaibouzaherWebsite/static/js/main.a7fa1f80.chunk.js",
-    "main.js.map": "/louaibouzaherWebsite/static/js/main.a7fa1f80.chunk.js.map",
+    "main.css": "/louaibouzaherWebsite/static/css/main.5ded9e85.chunk.css",
+    "main.js": "/louaibouzaherWebsite/static/js/main.9d13a53b.chunk.js",
+    "main.js.map": "/louaibouzaherWebsite/static/js/main.9d13a53b.chunk.js.map",
     "runtime-main.js": "/louaibouzaherWebsite/static/js/runtime-main.1582a9d5.js",
     "runtime-main.js.map": "/louaibouzaherWebsite/static/js/runtime-main.1582a9d5.js.map",
     "static/js/2.94fc222e.chunk.js": "/louaibouzaherWebsite/static/js/2.94fc222e.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.f285f1d7.chunk.js": "/louaibouzaherWebsite/static/js/3.f285f1d7.chunk.js",
     "static/js/3.f285f1d7.chunk.js.map": "/louaibouzaherWebsite/static/js/3.f285f1d7.chunk.js.map",
     "index.html": "/louaibouzaherWebsite/index.html",
-    "static/css/main.7536fc3b.chunk.css.map": "/louaibouzaherWebsite/static/css/main.7536fc3b.chunk.css.map",
+    "static/css/main.5ded9e85.chunk.css.map": "/louaibouzaherWebsite/static/css/main.5ded9e85.chunk.css.map",
     "static/js/2.94fc222e.chunk.js.LICENSE.txt": "/louaibouzaherWebsite/static/js/2.94fc222e.chunk.js.LICENSE.txt",
     "static/media/index.css": "/louaibouzaherWebsite/static/media/SF-UI-Display-Ultralight.ff3e1aab.otf",
     "static/media/aub.f8903c57.png": "/louaibouzaherWebsite/static/media/aub.f8903c57.png",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.1582a9d5.js",
     "static/js/2.94fc222e.chunk.js",
-    "static/css/main.7536fc3b.chunk.css",
-    "static/js/main.a7fa1f80.chunk.js"
+    "static/css/main.5ded9e85.chunk.css",
+    "static/js/main.9d13a53b.chunk.js"
   ]
 }
