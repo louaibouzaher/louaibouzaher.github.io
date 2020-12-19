@@ -15,7 +15,6 @@ const Conributions = () => {
       </div>
       <div className='flex flex-row'>
         <Contribution />
-        <Contribution />
       </div>
     </div>
   );
