@@ -3,7 +3,7 @@ import Tools from "./Tools";
 
 const Resume = () => {
   return (
-    <div className="container flex flex-row flex-wrap justify-center shadow-2xl">
+    <div className="container flex flex-row flex-wrap justify-center">
       <div className="font-sfb m-1 text-2xl text-white">
         <span className="gradientText text-6xl"> What I Do? </span>
         Check this.

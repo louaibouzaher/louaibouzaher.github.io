@@ -15,7 +15,7 @@ const Hero = () => {
         <div className="container my-3">
           <SocialMedia />
         </div>
-        <button className="gradientBorder font-sans text-xl border-gray-900 text-gray-500 border-solid my-5 mx-3 shadow-2xl rounded-lg font-bold tracking-wide h-12 w-40 align-middle bg-gray-700 bg-opacity-5">Contact Me</button>
+        <button className="gradientBorder font-sans text-xl border-gray-900  border-solid my-5 mx-3 shadow-2xl rounded-lg font-bold tracking-wide h-12 w-40 align-middle bg-gray-700 bg-opacity-5">Contact Me</button>
       </div>
       <img src={PersonalPicture} alt='louaiPic' className="h-2/3 shadow-2xl hidden xl:block rounded-full lg:mr-10 image" />
     
