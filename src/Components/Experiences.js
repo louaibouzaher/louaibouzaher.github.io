@@ -33,7 +33,7 @@ const Experiences = () => {
     },
   ];
   return (
-    <div className="w-full ">
+    <div id='community' className="w-full ">
       <div className="flex flex-row flex-wrap sm:flex-nowrap items-baseline justify-center">
         <span className="font-sfb text-4xl sm:text-6xl text-white underlineGreen">
           Experiences

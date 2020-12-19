@@ -8,7 +8,8 @@ import Conributions from "./Components/Conributions";
 import Awards from "./Components/Awards";
 import Experiences from "./Components/Experiences";
 import Contact from "./Components/Contact";
-import { BsArrowDownShort, BsLockFill } from "react-icons/bs";
+import { BsArrowDownShort} from "react-icons/bs";
+import Navbar from "./Components/Navbar";
 function App() {
   const linkRef = useRef(null);
   const HandleClick = () => {
@@ -34,6 +35,7 @@ function App() {
           size={60}
         />
       </a>
+      <Navbar />
       <Hero />
       <Resume />
       <Education />

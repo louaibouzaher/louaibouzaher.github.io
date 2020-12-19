@@ -104,7 +104,7 @@ const Contributions = () => {
   ]);
 
   return (
-    <div className="my-10 flex flex-col w-full h-screen gradientBackground">
+    <div id='projects' className="my-10 flex flex-col w-full h-screen gradientBackground">
       <div className="self-end m-6 ">
         <div className="font-sfb text-left sm:text-current text-4xl sm:text-6xl blueGradientText">
           {" "}

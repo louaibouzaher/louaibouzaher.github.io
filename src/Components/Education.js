@@ -3,7 +3,7 @@ import Esi from "../Assets/esi.png";
 import Aub from "../Assets/aub.png";
 const Education = () => {
   return (
-    <div className="w-full p-2 sm:p-5 flex flex-col items-center">
+    <div id='education' className="w-full p-2 sm:p-5 flex flex-col items-center">
       <div className="mt-20 mb-10 p-10 container w-5/6 sm:w-4/5 bg-white rounded-xl shadow-2xl">
         <div className="flex flex-row flex-wrap sm:flex-nowrap items-baseline">
           <span className="font-sfb text-4xl sm:text-6xl text-left blueGradientText m-1">

@@ -3,7 +3,7 @@ import Tools from "./Tools";
 
 const Resume = () => {
   return (
-    <div className="flex flex-row flex-wrap justify-center">
+    <div id='resume' className="flex flex-row flex-wrap justify-center">
       <div className="font-sfb m-1 text-2xl text-white">
         <span className="gradientText text-6xl"> What I Do? </span>
         Check this.
@@ -15,9 +15,8 @@ const Resume = () => {
           for now is on Web Development and UI/Branding Design. I have worked as
           a{" "}
           <div className="inline border-gray-900 border-solid p-2 rounded-md">
-            <span className="gradientText text-2xl">freelancer</span>
-          </div>{" "}
-          , you can find some of my works down below. I have also volunteered
+            <span className="gradientText text-2xl m-0 p-0">freelancer.</span>
+          </div>{" "}you can find some of my works down below. I have also volunteered
           and contributed to community projects.
         </div>
       </div>

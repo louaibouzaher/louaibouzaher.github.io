@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         sans: ["SFL", "Arial", "sans-serif"],
         sfb: ["SFB"],
+        sig: ["sig"],
       },
     },
   },
