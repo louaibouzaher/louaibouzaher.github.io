@@ -5,6 +5,7 @@ import Hero from "./Components/Hero";
 import Resume from "./Components/Resume";
 import Education from "./Components/Education";
 import Conributions from "./Components/Conributions";
+import Awards from "./Components/Awards";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Resume />
       <Education />
       <Conributions />
+      <Awards />
     </div>
   );
 }

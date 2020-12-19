@@ -10,6 +10,16 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.blueGradientTextEdited {
+  background: -webkit-linear-gradient(
+    -240deg,
+    rgba(31, 43, 70, 0.5),
+    rgb(36, 58, 105)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
 .gradientText {
   background: -webkit-linear-gradient(217deg, #43e97b 0%, #38f9d7 100%);
   -webkit-background-clip: text;
