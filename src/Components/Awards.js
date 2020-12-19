@@ -12,10 +12,10 @@ const Awards = () => {
       </div>
       <div className="p-10 sm:p-0 flex flex-col justify-around items-center">
         <div className="container flex justify-center font-sans text-xl text-left m-7 text-white tracking-wide">
-          🥇 MEPI Tomorrow's Leaders Program Scholar <br /> <br />
+          🥇 MEPI Tomorrow's Leaders Program Scholar. <br /> <br />
           🏆 First Prize Winning Team of HackIN The Lock Club Scientifique de
-          l'ESI Hackathon <br /> <br />
-          🎖️ Second Prize Winning Team of Fast&Hack GDG Algiers Hackathon <br />{" "}
+          l'ESI Hackathon. <br /> <br />
+          🎖️ Second Prize Winning Team of Fast&Hack GDG Algiers Hackathon. <br />{" "}
           <br />
           <br />
           <br />
