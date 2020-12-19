@@ -3,7 +3,7 @@ import SocialMedia from "./SocialMedia";
 import PersonalPicture from "../Assets/louaibouzaherPic.jpg";
 const Hero = () => {
   return (
-    <div className="flex flex-row flex-wrap sm:flex-nowrap justify-around items-center container h-screen">
+    <div id='hero' className="flex flex-row flex-wrap sm:flex-nowrap justify-around items-center container h-screen">
       <div className="order-2 sm:order-1 flex-2 flex flex-col justify-center items-start p-10 mx-10 mt-0 sm:mt-10">
         <div className="font-sfb text-4xl m-1 text-white text-left ">
           Hey there, <br/> I'm <span className='gradientText'> Louai Bouzaher! </span>

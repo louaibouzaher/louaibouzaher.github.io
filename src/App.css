@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 .App {
   text-align: center;
 }
@@ -40,6 +44,7 @@
 
 .image {
   filter: saturate(20%);
+  margin-top: -20px !important;
 }
 .gradientBackground {
   background-image: linear-gradient(217deg, #43e97b 0%, #38f9d7 100%);
@@ -87,4 +92,12 @@ html::-webkit-scrollbar {
 
 .underlineGreen {
   box-shadow: inset 0 -0.3em 0 0 #38f9d7;
+}
+
+.downArrow {
+  position: -webkit-sticky;
+  position: sticky;
+  top:85vh;
+  left:190vh;
+  z-index: 200;
 }
