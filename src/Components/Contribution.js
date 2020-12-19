@@ -14,14 +14,14 @@ const Contribution = ({c}) => {
     linkBehance,
   } = c
   return (
-    <div className="flex-grow h-80 flex flex-col items-center p-5 m-10 rounded-2xl shadow-2xl grayGradientBackground">
-      <div className="w-4/5 flex-grow-0 p-4 bg-gray-900 rounded-xl shadow-xl">
-        <div className="text-white font-sfb text-xl">{title ? title : 'NULL'}</div>
+    <div className="py-10 w-4/5 sm:w-1/3 flex-shrink-0 flex flex-col items-center p-5 m-10 rounded-2xl shadow-xl grayGradientBackground">
+      <div className="p-4 bg-gray-900 rounded-xl shadow-xl">
+        <div className="text-white font-sfb text-xl">{title}</div>
       </div>
-      <p className="my-2 text-sm text-white font sfl font-bold text-left tracking-wider ">
+      <p className="my-2 flex-grow w-full text-sm text-white font sfl font-bold text-left tracking-wider ">
        {description}
       </p>
-      <div className="flex flex-row justify-around mx-auto">
+      <div className="cursor-pointer flex flex-row justify-around mx-auto">
           {isGithub && (
         <div className="p-2 mx-1 rounded-full bg-gray-900 flex flex-row justify-around">
             <AiFillGithub
@@ -31,7 +31,7 @@ const Contribution = ({c}) => {
         </div>
           )}
           {isBehance && (
-        <div className="p-2 mx-1 rounded-full bg-gray-900 flex flex-row justify-around">
+        <div className="cursor-pointer p-2 mx-1 rounded-full bg-gray-900 flex flex-row justify-around">
             <AiFillBehanceCircle
               className="text-white hover:text-green-400"
               size={35}
@@ -39,7 +39,7 @@ const Contribution = ({c}) => {
         </div>
           )}
           {isXd && (
-        <div className="p-2 mx-1 rounded-full bg-gray-900 flex flex-row items-center">
+        <div className="cursor-pointer p-2 mx-1 rounded-full bg-gray-900 flex flex-row items-center">
             <SiAdobexd className="text-white hover:text-green-400" size={30} />
         </div>
           )}
