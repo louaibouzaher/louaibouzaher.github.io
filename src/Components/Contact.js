@@ -21,6 +21,7 @@ const Contact = () => {
         message: Contact.message,
         time: JSON.stringify(new Date()),
       });
+      alert("Message sent🚀 Thank you!");
     } else {
       alert("Please provide an email and a message before sending!");
     }
@@ -33,7 +34,7 @@ const Contact = () => {
         className="relative p-10 sm:w-3/4 m-2 sm:m-5 grayGradientBackgroundEdited flex flex-col sm:flex-row items-center rounded-2xl shadow-2xl"
       >
         <div className="absolute sm:hidden text-5xl sm:text-9xl top-5 sm:top-8 right-4 sm:right-10 transform rotate-6 sm:rotate-0">
-        ✉️
+          ✉️
         </div>
         <div className="hidden sm:absolute sm:block text-5xl sm:text-9xl top-5 sm:top-8 right-4 sm:right-10 transform sm:rotate-6">
           📧
