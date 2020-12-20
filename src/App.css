@@ -114,3 +114,18 @@ html::-webkit-scrollbar {
   left: 190vh;
   z-index: 200;
 }
+.bounceLeft {
+  animation: bounceLeft 1s infinite;
+}
+
+@keyframes bounceLeft {
+  0%,
+  100% {
+    transform: translateX(-25%);
+    animationtimingfunction: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateX(0);
+    animationtimingfunction: cubic-bezier(0, 0, 0.2, 1);
+  }
+}

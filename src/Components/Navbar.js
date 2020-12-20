@@ -3,7 +3,6 @@ import React from "react";
 const Navbar = () => {
   return (
     <div
-      id="hero"
       className="w-full flex flex-row justify-between items-baseline"
       style={{ marginTop: -40 }}
     >

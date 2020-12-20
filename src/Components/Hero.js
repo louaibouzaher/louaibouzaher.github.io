@@ -17,10 +17,10 @@ const Hero = () => {
           <SocialMedia />
         </div>
         <div className="flex flex-row">
-          <button className="hidden sm:block gradientBorderResume font-sans text-xl border-gray-900  border-solid  mx-3 shadow-2xl rounded-lg font-bold tracking-wide h-12 w-40 align-middle">
+          <button className="focus:outline-none hidden sm:block gradientBorderResume text-xl border-gray-900  border-solid  mx-3 shadow-2xl rounded-lg font-bold tracking-wide h-12 w-40 align-middle">
             Resume
           </button>
-          <button className="hidden sm:block gradientBorder font-sans text-xl border-gray-900  border-solid mx-3 shadow-2xl rounded-lg font-bold tracking-wide h-12 w-40 align-middle bg-gray-700 bg-opacity-5">
+          <button className="focus:outline-none hidden sm:block gradientBorder font-sans text-xl border-gray-900  border-solid mx-3 shadow-2xl rounded-lg font-bold tracking-wide h-12 w-40 align-middle bg-gray-700 bg-opacity-5">
             Contact Me
           </button>
         </div>

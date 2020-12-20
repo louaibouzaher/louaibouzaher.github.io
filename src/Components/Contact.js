@@ -37,10 +37,10 @@ const Contact = () => {
         </div>
         <div className="w-full mt-2 sm:mt-0 ml-0 sm:ml-10 flex flex-col justify-start items-start">
           <div className="text-white text-4xl font-sfb text-left">
-            Contact Me:
+            Contact Me
           </div>
           <div className="tracking-wide text-left">
-            <span className="text-white">I am cool with Instagram DMs too</span>
+            <span className="text-white">I'm cool with Instagram DMs too</span>
             🙄
           </div>
           <input
@@ -60,14 +60,14 @@ const Contact = () => {
             onChange={(e) => handleChange(e)}
           />
           <button
-            className="my-1 sm:my-2 gradientBorder font-sans border-gray-900  border-solid shadow-2xl rounded-lg font-bold tracking-wide h-10 w-40 align-middle bg-gray-700 bg-opacity-5"
+            className="focus:outline-none my-1 sm:my-2 gradientBorder font-sans border-gray-900  border-solid shadow-2xl rounded-lg font-bold tracking-wide h-10 w-40 align-middle bg-gray-700 bg-opacity-5"
             onClick={handleSend}
           >
             Send{" "}
           </button>
         </div>
       </div>
-      <div className="text-4xl gradientText font-sfb">
+      <div className="text-4xl gradientText font-sfb mx-3 sm:mx-0">
         Or just reach out on Social Media/Email
       </div>
       <div className="container flex justify-center font-sans text-xl text-center m-7 text-white tracking-wide">

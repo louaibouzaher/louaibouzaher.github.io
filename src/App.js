@@ -15,7 +15,7 @@ function App() {
   const HandleClick = () => {
     if (linkRef.current.hash == "#contact") {
       linkRef.current.classList.remove('transform', '-rotate-180');
-      linkRef.current.href = "#hero";
+      linkRef.current.href = "#root";
     } else {
       linkRef.current.classList.add('transform', '-rotate-180');
       linkRef.current.href = "#contact";

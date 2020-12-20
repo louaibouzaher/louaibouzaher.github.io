@@ -126,22 +126,14 @@ const Contributions = () => {
           <span> 🎨</span>
         </div>
       </div>
-      <div className="scroll my-2 sm:my-10 px-30 w-4/5 sm:w-5/6 flex flex-row overflow-x-scroll self-center">
-        <Contribution c={Contributions[0]} />
-        <Contribution c={Contributions[7]} />
-        <Contribution c={Contributions[6]} />
-        <Contribution c={Contributions[5]} />
-        <Contribution c={Contributions[5]} />
-        <Contribution c={Contributions[5]} />
-        {/* {Contributions.map((c,idx) => {
-          return (
-            <Contribution c={c} key={idx}/>
-          )
-        })} */}
+      <div className="scroll my-2 sm:my-10 px-5 w-full sm:w-5/6 flex flex-row overflow-x-scroll self-center">
+        {Contributions.map((c, idx) => {
+          return <Contribution c={c} key={idx} />;
+        })}
       </div>
       <BsArrowRightShort
         size={60}
-        className="self-end bottom-10 right-3 text-gray-900 relative sm:hidden"
+        className="self-end bottom-10 right-3 text-gray-900 relative sm:hidden bounceLeft"
       />
     </div>
   );
