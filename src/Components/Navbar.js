@@ -8,7 +8,7 @@ const Navbar = () => {
     >
       <div className="mx-10 text-4xl mt-20 mb-6 sm:mt-0 sm:mb-0 flex-grow sm:flex-grow-0">
         {" "}
-        👓{" "}
+        👓{" "} <br/> <span className='text-white text-sm sm:text-base'>/* Website in progress */</span>
       </div>
       <div className="hidden sm:flex flex-row px-6">
         <a href="#resume" className="px-3 text-white hover:text-green-400">
