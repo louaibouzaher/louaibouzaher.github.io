@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/louaibouzaherWebsite/static/css/main.453ead8d.chunk.css",
-    "main.js": "/louaibouzaherWebsite/static/js/main.75194999.chunk.js",
-    "main.js.map": "/louaibouzaherWebsite/static/js/main.75194999.chunk.js.map",
-    "runtime-main.js": "/louaibouzaherWebsite/static/js/runtime-main.1582a9d5.js",
-    "runtime-main.js.map": "/louaibouzaherWebsite/static/js/runtime-main.1582a9d5.js.map",
-    "static/js/2.9f0355aa.chunk.js": "/louaibouzaherWebsite/static/js/2.9f0355aa.chunk.js",
-    "static/js/2.9f0355aa.chunk.js.map": "/louaibouzaherWebsite/static/js/2.9f0355aa.chunk.js.map",
-    "static/js/3.f285f1d7.chunk.js": "/louaibouzaherWebsite/static/js/3.f285f1d7.chunk.js",
-    "static/js/3.f285f1d7.chunk.js.map": "/louaibouzaherWebsite/static/js/3.f285f1d7.chunk.js.map",
+    "main.css": "/louaibouzaherWebsite/static/css/main.9b00b3df.chunk.css",
+    "main.js": "/louaibouzaherWebsite/static/js/main.37af11bb.chunk.js",
+    "main.js.map": "/louaibouzaherWebsite/static/js/main.37af11bb.chunk.js.map",
+    "runtime-main.js": "/louaibouzaherWebsite/static/js/runtime-main.a4e9aa82.js",
+    "runtime-main.js.map": "/louaibouzaherWebsite/static/js/runtime-main.a4e9aa82.js.map",
+    "static/js/2.82dfcb31.chunk.js": "/louaibouzaherWebsite/static/js/2.82dfcb31.chunk.js",
+    "static/js/2.82dfcb31.chunk.js.map": "/louaibouzaherWebsite/static/js/2.82dfcb31.chunk.js.map",
+    "static/js/3.fae269f6.chunk.js": "/louaibouzaherWebsite/static/js/3.fae269f6.chunk.js",
+    "static/js/3.fae269f6.chunk.js.map": "/louaibouzaherWebsite/static/js/3.fae269f6.chunk.js.map",
     "index.html": "/louaibouzaherWebsite/index.html",
-    "static/css/main.453ead8d.chunk.css.map": "/louaibouzaherWebsite/static/css/main.453ead8d.chunk.css.map",
-    "static/js/2.9f0355aa.chunk.js.LICENSE.txt": "/louaibouzaherWebsite/static/js/2.9f0355aa.chunk.js.LICENSE.txt",
+    "static/css/main.9b00b3df.chunk.css.map": "/louaibouzaherWebsite/static/css/main.9b00b3df.chunk.css.map",
+    "static/js/2.82dfcb31.chunk.js.LICENSE.txt": "/louaibouzaherWebsite/static/js/2.82dfcb31.chunk.js.LICENSE.txt",
     "static/media/index.css": "/louaibouzaherWebsite/static/media/SF-UI-Display-Ultralight.ff3e1aab.otf",
     "static/media/aub.f8903c57.png": "/louaibouzaherWebsite/static/media/aub.f8903c57.png",
     "static/media/cse.02ecc06f.png": "/louaibouzaherWebsite/static/media/cse.02ecc06f.png",
@@ -21,9 +21,9 @@
     "static/media/ted.58fa859f.png": "/louaibouzaherWebsite/static/media/ted.58fa859f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1582a9d5.js",
-    "static/js/2.9f0355aa.chunk.js",
-    "static/css/main.453ead8d.chunk.css",
-    "static/js/main.75194999.chunk.js"
+    "static/js/runtime-main.a4e9aa82.js",
+    "static/js/2.82dfcb31.chunk.js",
+    "static/css/main.9b00b3df.chunk.css",
+    "static/js/main.37af11bb.chunk.js"
   ]
 }
