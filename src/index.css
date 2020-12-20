@@ -23,7 +23,20 @@
     rgba(17, 24, 39, 1),
     rgb(36, 58, 105)
   );
-  overflow-x: hidden;
+}
+@media (max-width: 600px ){
+  #root,
+  #root > div {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: -webkit-linear-gradient(
+      120deg,
+      rgba(17, 24, 39, 1),
+      rgb(36, 58, 105)
+    );
+    overflow-x: hidden;
+}
 }
 * {
   margin: 0;

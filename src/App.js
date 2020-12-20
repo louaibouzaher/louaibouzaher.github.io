@@ -15,22 +15,21 @@ function App() {
   const HandleClick = () => {
     if (linkRef.current.hash == "#contact") {
       linkRef.current.classList.remove('transform', '-rotate-180');
-      linkRef.current.href = "#root";
+      linkRef.current.href = "#hero";
     } else {
       linkRef.current.classList.add('transform', '-rotate-180');
       linkRef.current.href = "#contact";
     }
   };
   return (
-    <div className="App m-0 w-full flex flex-col items-center">
+    <div id='hero' className="App m-0 w-full flex flex-col items-center">
       <a
         ref={linkRef}
         href="#contact"
         className="downArrow "
         onClick={HandleClick}
       >
-        <BsArrowDownShort
-          
+        <BsArrowDownShort 
           className=" hidden lg:block text-green-400 animate-bounce"
           size={60}
         />
