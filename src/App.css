@@ -1,7 +1,9 @@
 html {
   scroll-behavior: smooth;
 }
-
+textarea {
+  resize: none;
+}
 .App {
   text-align: center;
 }
@@ -31,7 +33,7 @@ html {
 
 .gradientBorder {
   transition: all 1s;
-  color:rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.4);
   border: rgba(255, 255, 255, 0.05) solid 1px;
 }
 .gradientBorder:hover {
@@ -39,8 +41,8 @@ html {
   border: #38f9d7 solid 1px;
 }
 .gradientBorderResume {
-  transition: all .6s;
-  color:rgba(0, 0, 0, 0.6);
+  transition: all 0.6s;
+  color: rgba(0, 0, 0, 0.6);
   background-image: linear-gradient(217deg, #43e97b 0%, #38f9d7 100%);
   border: rgba(255, 255, 255, 0.05) solid 1px;
 }
