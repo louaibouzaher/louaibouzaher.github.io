@@ -23,6 +23,7 @@
     rgba(17, 24, 39, 1),
     rgb(36, 58, 105)
   );
+  overflow-x: hidden;
 }
 * {
   margin: 0;

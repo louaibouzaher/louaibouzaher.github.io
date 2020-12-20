@@ -20,9 +20,9 @@ const Hero = () => {
           <button className="focus:outline-none hidden sm:block gradientBorderResume text-xl border-gray-900  border-solid  mx-3 shadow-2xl rounded-lg font-bold tracking-wide h-12 w-40 align-middle">
             Resume
           </button>
-          <button className="focus:outline-none hidden sm:block gradientBorder font-sans text-xl border-gray-900  border-solid mx-3 shadow-2xl rounded-lg font-bold tracking-wide h-12 w-40 align-middle bg-gray-700 bg-opacity-5">
+          <a href='#contact' className="focus:outline-none text-center pt-2 hidden sm:block gradientBorder font-sans text-xl border-gray-900  border-solid mx-3 shadow-2xl rounded-lg font-bold tracking-wide h-12 w-40 bg-gray-700 bg-opacity-5">
             Contact Me
-          </button>
+          </a>
         </div>
       </div>
       <img
