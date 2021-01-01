@@ -17,10 +17,17 @@ const Hero = () => {
           <SocialMedia />
         </div>
         <div className="flex flex-row">
-          <button className="focus:outline-none hidden sm:block gradientBorderResume text-xl border-gray-900  border-solid  mx-3 shadow-2xl rounded-lg font-bold tracking-wide h-12 w-40 align-middle">
+          <a
+            target="_blank"
+            href="https://drive.google.com/file/d/1b0rZaNVlS_LqCwixwf3Z_WlvGbf0tCEU/view?usp=sharing"
+            className="focus:outline-none hidden sm:block gradientBorderResume text-xl border-gray-900  border-solid  mx-3 pt-2 shadow-2xl rounded-lg font-bold tracking-wide h-12 w-40 align-middle"
+          >
             Resume
-          </button>
-          <a href='#contact' className="focus:outline-none text-center pt-2 hidden sm:block gradientBorder font-sans text-xl border-gray-900  border-solid mx-3 shadow-2xl rounded-lg font-bold tracking-wide h-12 w-40 bg-gray-700 bg-opacity-5">
+          </a>
+          <a
+            href="#contact"
+            className="focus:outline-none text-center pt-2 hidden sm:block gradientBorder font-sans text-xl border-gray-900  border-solid mx-3 shadow-2xl rounded-lg font-bold tracking-wide h-12 w-40 bg-gray-700 bg-opacity-5"
+          >
             Contact Me
           </a>
         </div>

@@ -27,6 +27,17 @@ const Contributions = () => {
       linkXd: null,
     },
     {
+      title: "CSE Random Picker",
+      description:
+        "React App made for Club Scientifique de l'ESI in order to pick random winners.",
+      isGithub: true,
+      linkGithub: "https://cse-random-picker.herokuapp.com/",
+      isBehance: false,
+      linkBehance: null,
+      isXd: false,
+      linkXd: null,
+    },
+    {
       title: "CSE-Inventory App",
       description:
         "CSE Inventory Mobile App Built with React Native made to manage the club's Inventory",
@@ -62,7 +73,7 @@ const Contributions = () => {
     {
       title: "Shellmates Website",
       description:
-        "REST API Built with Express Js and MongoDb for CSE Inventory Mobile App.",
+        "Landing page for the Shellmates new website made with Adobe XD.",
       isGithub: false,
       linkGithub: null,
       isBehance: false,

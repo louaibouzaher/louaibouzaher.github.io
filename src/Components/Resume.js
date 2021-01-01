@@ -36,7 +36,8 @@ const Resume = () => {
       <div className="container flex justify-center font-sans text-xl text-left m-7 text-white tracking-wide">
         ⚡ Develop Web Apps Using HTML, CSS and JavaScript or MERN Stack.
         <br />
-        ⚡ Design Visual Identities and User Interface. <br />
+        ⚡ Design Visual Identities and User Interfaces. <br />
+        ⚡ Create Mobile Apps with React Native. <br />
         ⚡ Deploy Websites/ RESTful APIs on Heroku. <br />
         ⚡ Code, Code & Code 👨‍💻
         <br />

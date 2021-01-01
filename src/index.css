@@ -4,10 +4,7 @@
   font-family: "SFB";
   src: local("SFB"), url(./Fonts/SF-UI-Display-Black.otf);
 }
-@font-face {
-  font-family: "sig";
-  src: local("sig"), url(./Fonts/Onebillion.ttf);
-}
+
 @font-face {
   font-family: "SFL";
   src: local("SFL"), url(./Fonts/SF-UI-Display-Ultralight.otf);

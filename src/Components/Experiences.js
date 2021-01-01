@@ -6,8 +6,7 @@ const Experiences = () => {
   const Experiences = [
     {
       title: "GDG Algiers",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias architecto ea accusantium tenetur non sed voluptatibus eveniet, consequatur obcaecati autem veritatis molestiae ut error impedit dolorem adipisci provident magni quasi",
+      description: "GDG Algiers is a local community in Algiers and is part of the big global community of developers GDG (960 communities worldwide). We host a variety of technical workshops and hackathons for developers to empower our country's ecosystem in a cool way!",
       position: "Design Co-Manager",
       from: "2020",
       to: "2021",
@@ -16,7 +15,7 @@ const Experiences = () => {
     {
       title: "Club Scientifique de l'ESI",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias architecto ea accusantium tenetur non sed voluptatibus eveniet, consequatur obcaecati autem veritatis molestiae ut error impedit dolorem adipisci provident magni quasi",
+        "Le CSE est un club créé par des étudiants de l'ESI qu’a réuni l’objectif de donner une nouvelle perspective à leurs études.",
       position: "HR Manager Assistant",
       from: "2020",
       to: "2021",
@@ -25,7 +24,7 @@ const Experiences = () => {
     {
       title: "TED-Ed Club Biskra",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias architecto ea accusantium tenetur non sed voluptatibus eveniet, consequatur obcaecati autem veritatis molestiae ut error impedit dolorem adipisci provident magni quasi",
+        "The TED-Ed Club aims to gather all enthusiast high school students, promote discussion between them, urge them to debate and explore ideas. A place where these students can develop themselves and work more on their mindset, civic engagement and social maturity.",
       position: "Club Leader",
       from: "2018",
       to: "2019",
