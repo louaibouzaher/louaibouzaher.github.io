@@ -2,11 +2,22 @@ import React from "react";
 import Cse from "../Assets/cse.png";
 import Gdg from "../Assets/gdg.png";
 import Ted from "../Assets/ted.png";
+import Mla from "../Assets/mla.png";
 const Experiences = () => {
   const Experiences = [
     {
+      title: "Microsoft Learn",
+      description:
+        "The Microsoft Learn Student Ambassadors program is a global group of on-campus ambassadors who are eager to help students and their communities, lead in their local tech circles, and develop technical and career skills for the future. As a Student Ambassador, you might find yourself organizing a campus or community hackathon, mentoring other students, or volunteering with an elementary school STEM class.",
+      position: "Student Ambassador",
+      from: "2021",
+      to: "Now",
+      logo: Mla,
+    },
+    {
       title: "GDG Algiers",
-      description: "GDG Algiers is a local community in Algiers and is part of the big global community of developers GDG (960 communities worldwide). We host a variety of technical workshops and hackathons for developers to empower our country's ecosystem in a cool way!",
+      description:
+        "GDG Algiers is a local community in Algiers and is part of the big global community of developers GDG (960 communities worldwide). We host a variety of technical workshops and hackathons for developers to empower our country's ecosystem in a cool way!",
       position: "Design Co-Manager",
       from: "2020",
       to: "2021",
@@ -32,7 +43,7 @@ const Experiences = () => {
     },
   ];
   return (
-    <div id='community' className="w-full ">
+    <div id="community" className="w-full ">
       <div className="flex flex-row flex-wrap sm:flex-nowrap items-baseline justify-center">
         <span className="font-sfb text-4xl sm:text-6xl text-white underlineGreen">
           Experiences
