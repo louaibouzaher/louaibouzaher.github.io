@@ -26,6 +26,16 @@ const Contributions = () => {
       linkXd:null,
     },
     {
+      title: "SAID NGO Website",
+      description: "NEXT Js Website for SAID NGO.",
+      isGithub: true,
+      linkGithub: "https://said-crc.vercel.app/",
+      isBehance: false,
+      linkBehance: null,
+      isXd: false,
+      linkXd:null,
+    },
+    {
       title: "CSE-Inventory-API",
       description:
         "REST API Built with Express Js and MongoDb for CSE Inventory Mobile App.",
