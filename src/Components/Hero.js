@@ -19,7 +19,7 @@ const Hero = () => {
         <div className="flex flex-row">
           <a
             target="_blank"
-            href="https://drive.google.com/file/d/1Ee8JrTR7vqjg1P41ZePIFGvTemQE0fUH/view?usp=sharing"
+            href="https://drive.google.com/file/d/1RFU2X8evK_xwc3sulhVpUPT85NuzZNpG/view?usp=sharing"
             className="focus:outline-none hidden sm:block gradientBorderResume text-xl border-gray-900  border-solid  mx-3 pt-2 shadow-2xl rounded-lg font-bold tracking-wide h-12 w-40 align-middle"
           >
             Resume
