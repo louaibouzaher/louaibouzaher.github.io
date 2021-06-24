@@ -5,6 +5,27 @@ import { BsArrowRightShort } from "react-icons/bs";
 const Contributions = () => {
   const Contributions = [
     {
+      title: "Hack The Bot Website",
+      description:
+        "Design & Realization of Hack The Bot Hackathon Website, Built with Django Framework",
+      isGithub: true,
+      linkGithub: "https://htb.gdgalgiers.com/",
+      isBehance: false,
+      linkBehance: null,
+      isXd: false,
+      linkXd: null,
+    },
+    {
+      title: "Devfest-2020 Website",
+      description: "Devfest 2020 Event Website designed with Adobe XD",
+      isGithub: true,
+      linkGithub: "https://devfest20.gdgalgiers.com/",
+      isBehance: false,
+      linkBehance: null,
+      isXd: false,
+      linkXd:null,
+    },
+    {
       title: "CSE-Inventory-API",
       description:
         "REST API Built with Express Js and MongoDb for CSE Inventory Mobile App.",
@@ -60,17 +81,6 @@ const Contributions = () => {
       linkXd: null,
     },
     {
-      title: "Devfest-2020 Website",
-      description: "Devfest 2020 Event Website designed with Adobe XD",
-      isGithub: false,
-      linkGithub: null,
-      isBehance: false,
-      linkBehance: null,
-      isXd: true,
-      linkXd:
-        "https://xd.adobe.com/view/685be0d7-f89f-4b25-b55c-a4fb805edc14-3d08/",
-    },
-    {
       title: "Shellmates Website",
       description:
         "Landing page for the Shellmates new website made with Adobe XD.",
@@ -98,7 +108,7 @@ const Contributions = () => {
   return (
     <div
       id="projects"
-      className="my-10 flex flex-col w-full h-screen gradientBackground"
+      className="my-10 flex flex-col w-full gradientBackground"
     >
       <div className="self-end m-6 ">
         <div className="font-sfb text-left sm:text-current text-4xl sm:text-6xl blueGradientText">
@@ -116,7 +126,7 @@ const Contributions = () => {
           <span> 🎨</span>
         </div>
       </div>
-      <div className="scroll my-2 sm:my-10 px-5 w-full sm:w-5/6 flex flex-row overflow-x-scroll self-center">
+      <div className="scroll my-2 py-4 sm:my-10 w-full flex flex-row sm:flex-wrap sm:self-center sm:justify-center sm:overflow-x-hidden overflow-x-scroll items-stretch">
         {Contributions.map((c, idx) => {
           return <Contribution c={c} key={idx} />;
         })}

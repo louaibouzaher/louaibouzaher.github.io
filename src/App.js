@@ -13,7 +13,7 @@ import Navbar from "./Components/Navbar";
 function App() {
   const linkRef = useRef(null);
   const HandleClick = () => {
-    if (linkRef.current.hash == "#contact") {
+    if (linkRef.current.hash === "#contact") {
       linkRef.current.classList.remove('transform', '-rotate-180');
       linkRef.current.href = "#hero";
     } else {

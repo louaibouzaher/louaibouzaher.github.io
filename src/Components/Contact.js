@@ -13,7 +13,7 @@ const Contact = () => {
     });
   };
   const handleSend = () => {
-    if (Contact.email != "" && Contact.message != "") {
+    if (Contact.email !== "" && Contact.message !== "") {
       const messagesRef = database.ref("contactmessages");
       const newMessage = messagesRef.push();
       newMessage.set({

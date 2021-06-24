@@ -3,7 +3,7 @@ import Tools from "./Tools";
 
 const Resume = () => {
   return (
-    <div id='resume' className="flex flex-row flex-wrap justify-center">
+    <div id='resume' className="w-full flex flex-col flex-wrap justify-center items-center overflow-hidden">
       <div className="font-sfb m-1 text-2xl text-white">
         <span className="gradientText text-6xl"> What I Do? </span>
         Check this.
@@ -20,15 +20,14 @@ const Resume = () => {
           and contributed to community projects.
         </div>
       </div>
-      <div className="hidden lg:block absolute z-0 mt-20 w-4/6 m-7 flex-none rounded-3xl transform shadow-2xl bg-green-400 -rotate-1 sm:-rotate-3">
-        <div className="font-sans text-xl font-bold text-left my-7 text-green-500 tracking-wide">
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-        </div>
+      <div className="hidden lg:block absolute z-0 -mt-44 w-4/6 m-7 flex-none rounded-3xl transform shadow-2xl bg-green-400 -rotate-1 sm:-rotate-3">
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+     <br/>
+     <br/>
       </div>
       <div className="flex w-full justify-center items-center mt-8">
         <Tools />

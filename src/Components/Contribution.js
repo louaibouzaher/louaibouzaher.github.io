@@ -14,11 +14,11 @@ const Contribution = ({ c }) => {
     linkBehance,
   } = c;
   return (
-    <div className="py-10 w-4/5 sm:w-1/3 flex-shrink-0 flex flex-col items-center p-5 m-10 rounded-2xl shadow-xl grayGradientBackground">
-      <div className="p-4 bg-gray-900 rounded-xl shadow-xl">
+    <div className="py-10 w-4/5 sm:w-1/4 flex-shrink-0 flex flex-col items-center p-5 m-4 rounded-2xl shadow-xl bg-white">
+      <div className="p-4  grayGradientBackground rounded-xl shadow-xl">
         <div className="text-white font-sfb text-xl">{title}</div>
       </div>
-      <p className="my-2 flex-grow w-full text-sm text-white font sfl font-bold text-left tracking-wider ">
+      <p className="my-6 flex-grow w-full text-sm text-fray-900 font sfl font-bold text-left tracking-wider ">
         {description}
       </p>
       <div className="cursor-pointer flex flex-row justify-around mx-auto">

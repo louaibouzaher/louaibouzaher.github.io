@@ -1,10 +1,10 @@
 import React from "react";
 import SocialMedia from "./SocialMedia";
-import PersonalPicture from "../Assets/louaibouzaherPic.jpg";
+import PersonalPicture from "../Assets/louai.jpg";
 const Hero = () => {
   return (
     <div className="flex flex-row flex-wrap sm:flex-nowrap justify-around items-center container h-screen">
-      <div className="order-2 sm:order-1 flex-2 flex flex-col justify-center items-start p-10 mx-10 mt-0 sm:mt-10">
+      <div className="order-2 sm:order-1 flex-2 flex flex-col justify-center items-start p-10 mx-10 mt-0 ">
         <div className="font-sfb text-4xl m-1 text-white text-left ">
           Hey there, <br /> I'm{" "}
           <span className="gradientText"> Louai Bouzaher! </span>
@@ -19,7 +19,7 @@ const Hero = () => {
         <div className="flex flex-row">
           <a
             target="_blank"
-            href="https://drive.google.com/file/d/1b0rZaNVlS_LqCwixwf3Z_WlvGbf0tCEU/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Ee8JrTR7vqjg1P41ZePIFGvTemQE0fUH/view?usp=sharing"
             className="focus:outline-none hidden sm:block gradientBorderResume text-xl border-gray-900  border-solid  mx-3 pt-2 shadow-2xl rounded-lg font-bold tracking-wide h-12 w-40 align-middle"
           >
             Resume
@@ -35,7 +35,7 @@ const Hero = () => {
       <img
         src={PersonalPicture}
         alt="louaiPic"
-        className="mt-10 sm:mt-0 h-1/4 sm:h-2/3 order-1 sm:order-2 shadow-2xl  xl:block rounded-full lg:mr-10 image"
+        className="mt-10 sm:mt-0 h-1/4 sm:h-3/5 order-1 sm:order-2 shadow-2xl  xl:block rounded-full lg:mr-10 "
       />
     </div>
   );
